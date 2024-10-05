@@ -1,0 +1,15 @@
+{
+    "build": {
+        "command": "npx vercel-build"
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "index.html"
+        },
+        {
+            "src": "/api/hello",
+            "dest": "handler.js"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "build": {
+        "command": "npx vercel-build"
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "handler"
+        }
+    ]
+}
